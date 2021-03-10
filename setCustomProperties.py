@@ -14,5 +14,5 @@ def addMetadata(fileName, metadada):
     PdfWriter("out/edited.pdf", trailer=props).write()
 
     return  ("\n\n----------------------------------------------------\n" +
-            "The edited PDF is in the route: outFiles/edited.pdf\n" +
+            "The edited PDF is in the route: out/edited.pdf\n" +
             "----------------------------------------------------\n\n")
